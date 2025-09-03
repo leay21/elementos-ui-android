@@ -1,0 +1,93 @@
+<?xml version="1.0" encoding="utf-8"?>
+<ScrollView xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:padding="16dp">
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:orientation="vertical"
+        android:gravity="center"
+        android:padding="16dp">
+
+        <TextView
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="Botones (Button, ImageButton)"
+            android:textSize="24sp"
+            android:textStyle="bold"
+            android:layout_marginBottom="24dp" />
+
+        <TextView
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:text="Los botones permiten al usuario realizar acciones con un simple click. Existen diferentes tipos como Button, ImageButton y ToggleButton."
+            android:textSize="16sp"
+            android:layout_marginBottom="32dp"
+            android:textAlignment="center" />
+
+        <!-- Botón Normal -->
+        <Button
+            android:id="@+id/btnNormal"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="Botón Normal"
+            android:layout_marginBottom="24dp"
+            style="@style/Widget.Material3.Button"
+            android:textAllCaps="false" />
+
+        <!-- ImageButton -->
+        <ImageButton
+            android:id="@+id/imageButton"
+            android:layout_width="64dp"
+            android:layout_height="64dp"
+            android:src="@android:drawable/ic_menu_add"
+            android:contentDescription="Botón de imagen"
+            android:background="?attr/selectableItemBackgroundBorderless"
+            android:layout_marginBottom="24dp" />
+
+        <TextView
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="ImageButton"
+            android:textSize="14sp"
+            android:layout_marginBottom="32dp" />
+
+        <!-- Botón con toggle -->
+        <Button
+            android:id="@+id/btnToggle"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="Toggle Button"
+            android:layout_marginBottom="24dp"
+            style="@style/Widget.Material3.Button"
+            android:textAllCaps="false" />
+
+        <TextView
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="Haz click para activar/desactivar"
+            android:textSize="14sp"
+            android:layout_marginBottom="32dp" />
+
+        <!-- Botones de Material Design -->
+        <com.google.android.material.button.MaterialButton
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="Material Button"
+            android:layout_marginBottom="16dp"
+            style="@style/Widget.Material3.Button.OutlinedButton"
+            android:textAllCaps="false" />
+
+        <com.google.android.material.button.MaterialButton
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="Button Elevado"
+            style="@style/Widget.Material3.Button"
+            android:textAllCaps="false" />
+
+    </LinearLayout>
+
+</ScrollView>
