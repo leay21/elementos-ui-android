@@ -15,6 +15,7 @@
         <TextView
             android:layout_width="wrap_content"
             android:layout_height="wrap_content"
+            android:textColor="@color/black"
             android:text="Botones (Button, ImageButton)"
             android:textSize="24sp"
             android:textStyle="bold"
@@ -23,6 +24,7 @@
         <TextView
             android:layout_width="match_parent"
             android:layout_height="wrap_content"
+            android:textColor="@color/black"
             android:text="Los botones permiten al usuario realizar acciones con un simple click. Existen diferentes tipos como Button, ImageButton y ToggleButton."
             android:textSize="16sp"
             android:layout_marginBottom="32dp"

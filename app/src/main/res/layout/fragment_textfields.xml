@@ -15,6 +15,7 @@
             android:layout_width="wrap_content"
             android:layout_height="wrap_content"
             android:text="EditText (Campos de Texto)"
+            android:textColor="@color/black"
             android:textSize="24sp"
             android:textStyle="bold"
             android:layout_marginBottom="24dp" />
@@ -23,6 +24,7 @@
             android:layout_width="match_parent"
             android:layout_height="wrap_content"
             android:text="Los EditText permiten al usuario ingresar texto. Son esenciales para formularios, búsquedas y cualquier entrada de datos."
+            android:textColor="@color/black"
             android:textSize="16sp"
             android:layout_marginBottom="32dp"
             android:textAlignment="center" />
@@ -37,6 +39,7 @@
                 android:id="@+id/etName"
                 android:layout_width="match_parent"
                 android:layout_height="wrap_content"
+                android:textColor="@color/black"
                 android:hint="Nombre completo"
                 android:inputType="textPersonName" />
 
@@ -52,6 +55,7 @@
                 android:id="@+id/etEmail"
                 android:layout_width="match_parent"
                 android:layout_height="wrap_content"
+                android:textColor="@color/black"
                 android:hint="Correo electrónico"
                 android:inputType="textEmailAddress" />
 
@@ -68,6 +72,7 @@
                 android:id="@+id/etPassword"
                 android:layout_width="match_parent"
                 android:layout_height="wrap_content"
+                android:textColor="@color/black"
                 android:hint="Contraseña"
                 android:inputType="textPassword" />
 

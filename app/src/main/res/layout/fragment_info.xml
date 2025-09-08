@@ -14,6 +14,7 @@
         <TextView
             android:layout_width="wrap_content"
             android:layout_height="wrap_content"
+            android:textColor="@color/black"
             android:text="Elementos de Información"
             android:textSize="24sp"
             android:textStyle="bold"
@@ -22,6 +23,7 @@
         <TextView
             android:layout_width="match_parent"
             android:layout_height="wrap_content"
+            android:textColor="@color/black"
             android:text="TextView, ImageView y ProgressBar muestran información al usuario. TextView para texto, ImageView para imágenes y ProgressBar para indicar progreso."
             android:textSize="16sp"
             android:layout_marginBottom="32dp"
@@ -31,6 +33,7 @@
         <TextView
             android:layout_width="wrap_content"
             android:layout_height="wrap_content"
+            android:textColor="@color/black"
             android:text="TextView"
             android:textSize="18sp"
             android:textStyle="bold"
@@ -52,6 +55,7 @@
         <TextView
             android:layout_width="wrap_content"
             android:layout_height="wrap_content"
+            android:textColor="@color/black"
             android:text="ImageView"
             android:textSize="18sp"
             android:textStyle="bold"
@@ -71,6 +75,7 @@
         <TextView
             android:layout_width="wrap_content"
             android:layout_height="wrap_content"
+            android:textColor="@color/black"
             android:text="ProgressBar"
             android:textSize="18sp"
             android:textStyle="bold"
@@ -131,11 +136,11 @@
         <TextView
             android:layout_width="wrap_content"
             android:layout_height="wrap_content"
+            android:textColor="@color/black"
             android:text="TextView con diferentes estilos:"
             android:textSize="16sp"
             android:textStyle="bold"
             android:layout_marginBottom="16dp" />
-
         <TextView
             android:layout_width="wrap_content"
             android:layout_height="wrap_content"
@@ -156,9 +161,8 @@
             android:layout_height="wrap_content"
             android:text="Texto en color"
             android:textSize="14sp"
-            android:textColor="#FF0000"
+            android:textColor="@color/purple_500"
             android:layout_marginBottom="32dp" />
-
     </LinearLayout>
 
 </ScrollView>
